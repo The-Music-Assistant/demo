@@ -1,0 +1,33 @@
+// =============================
+// File Path: components/_link.scss
+// Description: Link styles
+// Author: Dan Levy
+// Email: danlevy124@gmail.com
+// Created Date: 9/29/2019
+// =============================
+
+.hover-underline {
+    @include text($font-size: 1rem, $font-weight: 400, $color: $blue, $line-height: 1.2rem);
+
+    &:hover,
+    &:active {
+        text-decoration: underline;
+    }
+}
+
+.large-link {
+    @include text($font-size: 1.5rem, $font-weight: 400, $color: $blue, $line-height: 1.2rem);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: $white;
+        background-color: $blue;
+    }
+
+    &-container {
+        margin: 50px auto 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "module": "writable",
+        "require": "readonly",
+        "__dirname": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
+    "rules": {
+        "array-callback-return": "error",
+        "block-scoped-var": "error",
+        "class-methods-use-this": "error",
+        "default-case-last": "error",
+        "default-param-last": "error",
+        "dot-notation": "error",
+        "no-magic-numbers": "error",
+        "no-multi-spaces": "error",
+        "no-multi-str": "error",
+        "radix": "error"
+    }
+}

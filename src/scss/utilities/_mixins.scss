@@ -1,0 +1,20 @@
+// =============================
+// File Path: utilities/_mixins.scss
+// Description: Website mixins
+// Author: Dan Levy
+// Email: danlevy124@gmail.com
+// Created Date: 9/4/2019
+// =============================
+
+@mixin flex($justify-content, $align-items) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin text($font-size, $font-weight, $color, $line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    line-height: $line-height;
+}

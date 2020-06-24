@@ -1,2 +1,3 @@
-# demo
-Demo site that includes development progress
+# The Music Assistant Demo & Info Website
+
+A static demo of The Music Assistant.
